@@ -1,7 +1,7 @@
 import Link from "next/link";
 
 export default async function ItemsPage({searchParams}: {searchParams: {search: string}}) {
-  const apiUrl = `https://api.mercadolibre.com/sites/MLA/search?q=${searchParams.search}&limit=10`;
+  const apiUrl = `https://api.mercadolibre.com/sites/MLA/search?q=${searchParams.search}&limit=50`;
   const {results} = await fetch(apiUrl).then(
     (res) =>
       res.json() as Promise<{
