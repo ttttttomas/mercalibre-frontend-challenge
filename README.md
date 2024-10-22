@@ -1,4 +1,6 @@
-## Getting Started with mercalibre-frontend-challenge
+## ProtoLibre, Prototipo de la tienda amarilla.
+
+_Proyecto para uso demostrativo y/o didáctico de la tienda amarilla usando la API de la misma. Creado con NextJs & TailwindCSS_
 
 First, run the development server:
 
